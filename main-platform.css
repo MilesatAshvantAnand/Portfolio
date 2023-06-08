@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-     /* No Need for Margin 0 */
      padding: 0px;
      box-sizing: border-box;
 }
@@ -75,7 +74,7 @@ body {
      -webkit-animation-timing-function: linear;
      -moz-animation-timing-function: linear;
      -o-animation-timing-function: linear;
-     animation-timing-function: linear;
+     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 body::before {
@@ -88,6 +87,11 @@ body::before {
 
 h1 {
      font-size: 800%;
+     padding: 1%;
+     background-color: rgba(0, 0, 0, 0.100);
+     width: 75vw;
+     border-radius: 20px;
+     margin-left: 7vw;
 }
 
 .content {
@@ -129,6 +133,19 @@ img {
 
 }
 .btn{
-     margin-top: 3%;
-     margin-left: -49%;
+     margin-left: 8%;
+     text-align: left;
 }
+.h1Container{
+     width: 100vw;
+     text-align: center;
+     align-items: center;
+}
+ main{
+     background-color: rgba(0, 0, 0, 0.050);
+     margin: 0vw 9vh;
+     padding:1%;
+     scale: 0.9;
+     height:80vh;
+     border-radius:15px;
+ }
